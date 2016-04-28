@@ -19,6 +19,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+
 private:
     BetterWebView * bwv;
     Ui::MainWindow *ui;

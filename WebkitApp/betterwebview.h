@@ -2,15 +2,19 @@
 #define BETTERWEBVIEW_H
 
 #include <QWidget>
-#include <QWebView>
-#include <QWebInspector>
-#include <QWebSettings>
+//#include <QWebView>
+//#include <QWebInspector>
+//#include <QWebSettings>
+#include <QtWebKitWidgets>
 #include <QtDebug>
 #include <QPrinter>
+#include <QPrintDialog>
 #include <QPrintPreviewDialog>
 #include <QPaintEngine>
 #include <QFileDialog>
 #include <QtDebug>
+
+
 
 class BetterWebView : public QWebView {
 
@@ -23,8 +27,8 @@ signals:
 
 public slots:
     void doPrint();
-    void zoomIn();
-    void zoomOut();
+    void reload();
+    void printDial();
 };
 
 #endif // BETTERWEBVIEW_H
