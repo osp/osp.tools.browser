@@ -4,7 +4,7 @@ BetterWebView::BetterWebView(QWidget *parent) : QWebView(parent)
 {
     show();
 
-    load(QUrl("http://localhost:8000"));
+    load(QUrl("http://localhost:8000/document"));
     page()->settings()->setAttribute(QWebSettings::DeveloperExtrasEnabled, true);
 }
 
