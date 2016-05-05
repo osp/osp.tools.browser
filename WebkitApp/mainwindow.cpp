@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     QShortcut *shortcut2 = new QShortcut(QKeySequence("Ctrl+R"), this );
     QObject::connect( shortcut2, SIGNAL(activated()), bwv, SLOT( reload() ) );
 
-    QShortcut *shortcut3 = new QShortcut(QKeySequence("Ctrl+O"), this );
+    QShortcut *shortcut3 = new QShortcut(QKeySequence("Ctrl+Shift+P"), this );
     QObject::connect( shortcut3, SIGNAL(activated()), bwv, SLOT( printDial() ) );
 }
 

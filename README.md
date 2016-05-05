@@ -27,5 +27,5 @@ Available shortcuts
 -------------------
 
 - Ctrl + P: Print to file
-- Ctrl + O (to be changed): Print dialog (allows output page resizing)
+- Ctrl + Shift + P: Print dialog (allows output page resizing)
 - Ctrl + R: Reload
