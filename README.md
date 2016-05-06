@@ -7,10 +7,11 @@ This browser is meant to be used with the project html2print available here: <ht
 The aim is to lay out printed documents within a web browser.
 We built our own webkit browser in order to have a faster browser and good typography (weirdly, the bearings and kernings can be weird in certain webkit browsers).
 
+Before the compilation for ubuntu users install qt5-default and libqt5webkit5-dev.
 
 How to compile
 --------------
-
+    
     cd WebkitApp
     make
 
